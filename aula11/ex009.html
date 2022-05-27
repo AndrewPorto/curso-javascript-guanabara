@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Qual sua nacionalidade?</h1>
+    Digite ao lado <input type="text" name="txtn" id="txtn">
+    <input type="button" value="Confirmar" onclick="Confirmar()">
+    <div id="nas">
+
+    </div>
+    <script>
+        function Confirmar() {
+            var txtn = window.document.querySelector('input#txtn')
+            var nas = window.document.querySelector('div#nas')
+            var nacionalidade = (txtn.value)
+            res.innerHTML = `<p>Sua nacionalidade é <strong>${nas}</strong></p>`
+            if (txtn == 'brasileira') {
+                res.innerHTML == `Voce está <strong> MULTADO </strong> por excesso de velocidade`
+            } 
+        }
+
+    </script>
+</body>
+</html>

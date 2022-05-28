@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Qual sua nacionalidade?</h1>
-    Digite ao lado <input type="text" name="txtn" id="txtn">
+    Digite ao lado <input type="text" name="txtnas" id="txtnas">
     <input type="button" value="Confirmar" onclick="Confirmar()">
     <div id="nas">
 
@@ -17,8 +17,8 @@
         function Confirmar() {
             var txtn = window.document.querySelector('input#txtn')
             var nas = window.document.querySelector('div#nas')
-            var nacionalidade = (txtn.value)
-            res.innerHTML = `<p>Sua nacionalidade é <strong>${nas}</strong></p>`
+            var nascionalidade = (txtn.value)
+            res.innerHTML = `<p>Sua nacionalidade é <strong>${nascionalidade}</strong></p>`
             if (txtn == 'brasileira') {
                 res.innerHTML == `Voce está <strong> MULTADO </strong> por excesso de velocidade`
             } 

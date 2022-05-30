@@ -23,3 +23,10 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#res {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
